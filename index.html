@@ -4,27 +4,126 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
-<html>
+<html lang="fr">
 
 <head>
-	<title>Sixte de Maupeou</title>
+	<title>Sixte de Maupeou — Aux cœurs des mondes, récit de voyage en auto-stop</title>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<meta property='og:image'
-		content="http://sixte.demaupeou.com/images/banner.png" />
+	<meta name="description" content="Sixte de Maupeou, auteur du récit de voyage « Aux cœurs des mondes — Aventure en quête d'humanité ». 60 000 km en auto-stop à travers 43 pays : France, Iran, Inde, Brésil, Colombie… Préfacé par Alexandre Poussin, parution le 15 mai 2026." />
+	<meta name="keywords" content="Aux cœurs des mondes, Au cœur des mondes, Au coeur du monde, Aux coeurs des mondes, Sixte de Maupeou, récit de voyage, auto-stop, hitchhiking, tour du monde, Alexandre Poussin, voyage Iran, voyage Inde, voyage Brésil, aventure, altruisme" />
+	<meta name="author" content="Sixte de Maupeou" />
+	<link rel="canonical" href="https://sixte.demaupeou.com/" />
+	<link rel="alternate" hreflang="fr" href="https://sixte.demaupeou.com/" />
+	<link rel="alternate" hreflang="en" href="https://sixte.demaupeou.com/" />
+
+	<!-- Open Graph -->
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="Sixte de Maupeou — Aux cœurs des mondes" />
+	<meta property="og:description" content="Récit de voyage en auto-stop autour du monde. 60 000 km, 43 pays, 800+ conducteurs et hôtes. Préfacé par Alexandre Poussin." />
+	<meta property="og:url" content="https://sixte.demaupeou.com/" />
+	<meta property="og:image" content="https://sixte.demaupeou.com/images/couverture-aux-coeurs-des-mondes.jpg" />
+	<meta property="og:image:alt" content="Couverture du livre Aux cœurs des mondes par Sixte de Maupeou" />
+	<meta property="og:locale" content="fr_FR" />
+	<meta property="og:locale:alternate" content="en_GB" />
+	<meta property="og:site_name" content="Sixte de Maupeou" />
+
+	<!-- Twitter Card -->
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:title" content="Sixte de Maupeou — Aux cœurs des mondes" />
+	<meta name="twitter:description" content="Récit de voyage en auto-stop autour du monde. 60 000 km, 43 pays, 800+ conducteurs et hôtes." />
+	<meta name="twitter:image" content="https://sixte.demaupeou.com/images/couverture-aux-coeurs-des-mondes.jpg" />
 	<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 	<link rel="stylesheet" href="assets/css/main.css" />
 	<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+
+	<!-- Structured Data -->
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@graph": [
+			{
+				"@type": "Person",
+				"name": "Sixte de Maupeou",
+				"url": "https://sixte.demaupeou.com",
+				"sameAs": [
+					"https://www.linkedin.com/in/sixte",
+					"https://github.com/sixtedemaupeou",
+					"https://www.instagram.com/auxcoeursdesmondes/",
+					"https://www.youtube.com/@auxcoeursdesmondes",
+					"https://www.polarsteps.com/sixte/4997970-go-west"
+				],
+				"email": "sixte@demaupeou.com",
+				"description": "Auteur du récit de voyage Aux cœurs des mondes. Tour du monde en auto-stop de 60 000 km à travers 43 pays."
+			},
+			{
+				"@type": "Book",
+				"name": "Aux cœurs des mondes — Aventure en quête d'humanité",
+				"alternateName": ["Au cœur des mondes", "Au coeur du monde", "Aux coeurs des mondes"],
+				"author": {
+					"@type": "Person",
+					"name": "Sixte de Maupeou"
+				},
+				"contributor": {
+					"@type": "Person",
+					"name": "Alexandre Poussin",
+					"description": "Préface"
+				},
+				"bookFormat": "https://schema.org/Paperback",
+				"inLanguage": "fr",
+				"isbn": "9782487742154",
+				"datePublished": "2026-05-15",
+				"genre": ["Récit de voyage", "Aventure", "Auto-stop"],
+				"description": "Récit de voyage en auto-stop autour du monde. 60 000 km en 80 semaines à travers 43 pays, de la France à l'Iran, l'Inde, le Brésil et bien d'autres. Une aventure en quête d'humanité et d'altruisme.",
+				"url": "https://www.fnac.com/a22781397/Alexandre-Poussin-Aux-c-urs-des-mondes-aventure-en-quete-d-humanite",
+				"image": "https://sixte.demaupeou.com/images/couverture-aux-coeurs-des-mondes.jpg",
+				"about": [
+					"Récit de voyage",
+					"Auto-stop",
+					"Tour du monde",
+					"Altruisme",
+					"Iran",
+					"Inde",
+					"Brésil",
+					"Colombie",
+					"Arabie saoudite"
+				]
+			}
+		]
+	}
+	</script>
+	<style>
+		[data-lang-en] { display: none !important; }
+		html[lang="en"] [data-lang-en] { display: revert !important; }
+		html[lang="en"] [data-lang-fr] { display: none !important; }
+		#lang-toggle {
+			position: fixed;
+			top: 15px;
+			right: 15px;
+			z-index: 10000;
+			background: rgba(0,0,0,0.6);
+			color: #fff;
+			border: 1px solid rgba(255,255,255,0.3);
+			border-radius: 4px;
+			padding: 6px 12px;
+			cursor: pointer;
+			font-size: 14px;
+			font-family: inherit;
+		}
+		#lang-toggle:hover { background: rgba(0,0,0,0.8); }
+	</style>
 </head>
 
 <body>
+
+	<button id="lang-toggle" onclick="toggleLang()">EN</button>
 
 	<!-- Header -->
 	<section id="header">
 		<header>
 			<span class="image avatar"><img src="images/avatar.jpg"
-					alt="" /></span>
+					alt="Sixte de Maupeou, auteur et voyageur en auto-stop" /></span>
 			<h1 id="logo"><a href="#">Sixte de Maupeou</a></h1>
 			<!-- <p>French hitchhiker</p> -->
 		</header>
@@ -32,7 +131,8 @@
 			<ul>
 				<!-- <li><a href="#one" class="active">About</a></li>
 				<li><a href="#two">Things I like to do</a></li> -->
-				<li><a href="#three">World tour</a></li>
+				<li data-lang-fr><a href="#three">Actualités</a></li>
+				<li data-lang-en><a href="#three">News</a></li>
 				<li><a href="#four">Contact</a></li>
 			</ul>
 		</nav>
@@ -44,6 +144,12 @@
 				<li><a href="http://www.github.com/sixtedemaupeou"
 						class="icon fa-github"><span
 							class="label">Github</span></a></li>
+				<li><a href="https://www.instagram.com/auxcoeursdesmondes/"
+						class="icon fa-instagram"><span
+							class="label">Instagram</span></a></li>
+				<li><a href="https://www.youtube.com/@auxcoeursdesmondes"
+						class="icon fa-youtube"><span
+							class="label">YouTube</span></a></li>
 				<li><a href="mailto:sixte@demaupeou.com"
 						class="icon fa-envelope"><span
 							class="label">Email</span></a></li>
@@ -103,40 +209,115 @@
 			<!-- Three -->
 			<section id="three">
 				<div class="container">
-					<h3>Current focus</h3>
-					<p>As you're reading this I'm likely to be in the process of
-						completing the following.</p>
+					<h3><span data-lang-fr>Actualités</span><span data-lang-en>News</span></h3>
 					<div class="features">
 						<article>
-							<a href="https://www.amcharts.com/visited_countries/#AT,BE,BG,HR,CY,CZ,FR,DE,GR,HU,IT,LI,NL,PL,PT,RO,RS,SK,SI,ES,SE,CH,TR,GB,PR,US,SN,ZA,KH,IL,JO,LB,MM,OM,PS,TH,VN,AU"
-								class="image"><img src="images/pic02.png"
-									alt="" /></a>
+							<a href="https://www.fnac.com/a22781397/Alexandre-Poussin-Aux-c-urs-des-mondes-aventure-en-quete-d-humanite"
+								class="image"><img src="images/couverture-aux-coeurs-des-mondes.jpg"
+									alt="Couverture du livre Aux cœurs des mondes — récit de voyage en auto-stop par Sixte de Maupeou, préfacé par Alexandre Poussin" /></a>
 							<div class="inner">
 								<h4>
-									Hitchhiking around the world
-									<!-- <a
-										href="https://www.polarsteps.com/sixte/4997970-go-west">
-										Hitchhiking around the world</a> -->
+									<span data-lang-fr>Aux cœurs des mondes — Aventure en quête d'humanité</span>
+									<span data-lang-en>Aux cœurs des mondes — A journey in search of humanity</span>
 								</h4>
-								<p>
-									On October 2nd 2022, I am starting a
-									hitchhiking trip with the aim to travel
-									around the world relying on locals for
-									transportation and accommodation.
-									During this trip, I will make video
-									interviews of various people from widely
-									different backgrounds and cultures.
-									Through these encounters, I aim to conduct
-									field research on altruism, its motivations
-									and blockers, and how we can leverage it to
-									lift each others up on a large scale.
-									Finally, I will publish blog articles on
-									that subject
-									to share experiments, analysis and thought
-									on that topic.
+								<p data-lang-fr>
+									Mon livre <b>Aux cœurs des mondes</b> est un récit
+									de voyage qui retrace mon tour du monde en auto-stop
+									à travers 43 pays, de l'Iran à l'Inde, du Brésil
+									à l'Arabie saoudite.
+									Préfacé par Alexandre Poussin, il paraîtra le
+									<b>15 mai 2026</b>.
+									Déjà disponible en précommande sur la
+									<a href="https://www.fnac.com/a22781397/Alexandre-Poussin-Aux-c-urs-des-mondes-aventure-en-quete-d-humanite">Fnac</a>.
+								</p>
+								<p data-lang-en>
+									My book <b>Aux cœurs des mondes</b> (Into the
+									hearts of worlds) is a travel narrative retracing
+									my hitchhiking trip around the world across 43
+									countries, from Iran to India, Brazil to Saudi Arabia.
+									Prefaced by Alexandre Poussin, it will be published on
+									<b>May 15, 2026</b>.
+									Already available for pre-order on
+									<a href="https://www.fnac.com/a22781397/Alexandre-Poussin-Aux-c-urs-des-mondes-aventure-en-quete-d-humanite">Fnac</a>.
 								</p>
 							</div>
 						</article>
+						<article style="width:100%;">
+							<div class="inner" style="width:100%; margin-left:0;">
+								<h4>
+									<span data-lang-fr>Tour du monde en auto-stop</span>
+									<span data-lang-en>Hitchhiking around the world</span>
+								</h4>
+								<p data-lang-fr>
+									D'octobre 2022 à mai 2024, j'ai parcouru
+									60 000 km en 80 semaines en auto-stop à travers
+									43 pays, grâce à plus de 800 conducteurs et hôtes.
+									Ce récit de voyage traverse l'Europe, l'Afrique,
+									l'Amérique latine, le Moyen-Orient et l'Asie —
+									de l'Iran au Pakistan, de l'Inde au Brésil.
+									En termes de nuits : 157 chez l'habitant,
+									71 dans les transports (dont 51 sur des bateaux),
+									108 dehors (dont 69 sous la tente et 39 à la
+									belle étoile), 4 dans des mosquées et 5 dans
+									des postes de police.
+								</p>
+								<div style="position:relative; width:100%; padding-bottom:56.25%; height:0; overflow:hidden; margin-bottom:1.5em;">
+									<iframe src="https://www.youtube.com/embed/eX-jWqYrxAQ?si=8urzTNWkeFVb9Gh8&amp;start=243"
+										title="YouTube video player"
+										frameborder="0"
+										allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+										referrerpolicy="strict-origin-when-cross-origin"
+										allowfullscreen
+										style="position:absolute; top:0; left:0; width:100%; height:100%;"></iframe>
+								</div>
+								<p data-lang-fr>
+									<b>Pays traversés :</b> France, Espagne,
+									Gibraltar (R.-U.), Maroc, Sahara occidental,
+									Mauritanie, Sénégal, Cap-Vert,
+									Martinique (Fr.), Saint-Vincent-et-les-Grenadines,
+									Grenade, Trinité-et-Tobago, Guyana, Suriname,
+									Guyane (Fr.), Brésil, Uruguay, Argentine,
+									Paraguay, Bolivie, Pérou, Équateur, Colombie,
+									Panama, Costa Rica, Inde, Pakistan, Iran,
+									Émirats arabes unis, Arabie saoudite, Égypte,
+									Jordanie, Irak, Turquie, Grèce, Macédoine du Nord,
+									Albanie, Monténégro, Croatie, Slovénie, Italie,
+									Suisse, France.
+								</p>
+								<p data-lang-en>
+									From October 2022 to May 2024, I travelled
+									60,000 km over 80 weeks by hitchhiking across
+									43 countries, thanks to more than 800 drivers
+									and hosts. This travel narrative spans Europe,
+									Africa, Latin America, the Middle East and Asia —
+									from Iran to Pakistan, India to Brazil.
+									In terms of nights: 157 with locals,
+									71 in transport (including 51 on boats),
+									108 outdoors (including 69 in a tent and
+									39 under the stars), 4 in mosques and 5 in
+									police stations.
+								</p>
+								<p data-lang-en>
+									<b>Countries visited:</b> France, Spain,
+									Gibraltar (UK), Morocco, Western Sahara,
+									Mauritania, Senegal, Cape Verde,
+									Martinique (Fr.), Saint Vincent and the Grenadines,
+									Grenada, Trinidad and Tobago, Guyana, Suriname,
+									French Guiana (Fr.), Brazil, Uruguay, Argentina,
+									Paraguay, Bolivia, Peru, Ecuador, Colombia,
+									Panama, Costa Rica, India, Pakistan, Iran,
+									United Arab Emirates, Saudi Arabia, Egypt,
+									Jordan, Iraq, Turkey, Greece, North Macedonia,
+									Albania, Montenegro, Croatia, Slovenia, Italy,
+									Switzerland, France.
+								</p>
+							</div>
+						</article>
+						<iframe src="https://www.polarsteps.com/sixte/4997970-go-west/embed"
+							width="100%" height="500"
+							frameborder="0"
+							allowfullscreen
+							style="border-radius:4px;"></iframe>
 						<!-- <article>
 							<a href="https://www.blog.demaupeou.com"
 								class="image"><img
@@ -247,13 +428,22 @@
 			<!-- Four -->
 			<section id="four">
 				<div class="container">
-					<h3>Things you can do</h3>
-					<p>
+					<h3><span data-lang-fr>Liens utiles</span><span data-lang-en>Things you can do</span></h3>
+					<p data-lang-fr>
+						Si vous souhaitez me contacter, envoyez-moi un email à
+						<a href="mailto:sixte@demaupeou.com">sixte@demaupeou.com</a>
+					</p>
+					<p data-lang-en>
 						If you want to reach out to me, just drop me an email at
 						<a
 							href="mailto:sixte@demaupeou.com">sixte@demaupeou.com</a>
 					</p>
-					<p>
+					<p data-lang-fr>
+						Ou bien vous pouvez jouer à <a
+							href="http://fichesbacfrancais.free.fr/Flap/flap.html">Flappy
+							Sixte</a>, un jeu que j'ai créé au lycée.
+					</p>
+					<p data-lang-en>
 						Or you can play <a
 							href="http://fichesbacfrancais.free.fr/Flap/flap.html">Flappy
 							Sixte</a>, a game I made when I was in high school.
@@ -265,7 +455,10 @@
 					href="https://www.doc.ic.ac.uk/~sd4215/hopfield.html">Hopfield
 					neural networks</a>.
 			</p> -->
-					<p>If you are still here, take some time to visit the <a
+					<p data-lang-fr>Si vous êtes encore là, prenez le temps de visiter le <a
+							href="http://yoyo.demaupeou.com/">site</a> que j'ai fait
+						pour les peintures de ma mère.</p>
+					<p data-lang-en>If you are still here, take some time to visit the <a
 							href="http://yoyo.demaupeou.com/">website</a> I made
 						for
 						my mum's paintings.</p>
@@ -625,7 +818,7 @@
 		<section id="footer">
 			<div class="container">
 				<ul class="copyright">
-					<li>&copy; Untitled. All rights reserved.</li>
+					<li>&copy; <span data-lang-fr>Tous droits réservés.</span><span data-lang-en>All rights reserved.</span></li>
 					<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
 				</ul>
 			</div>
@@ -646,6 +839,30 @@
 	<script type="text/javascript"
 		src="https://platform.linkedin.com/badges/js/profile.js" async
 		defer></script>
+
+	<!-- Language toggle -->
+	<script>
+		function toggleLang() {
+			var html = document.documentElement;
+			var btn = document.getElementById('lang-toggle');
+			if (html.lang === 'fr') {
+				html.lang = 'en';
+				btn.textContent = 'FR';
+				localStorage.setItem('lang', 'en');
+			} else {
+				html.lang = 'fr';
+				btn.textContent = 'EN';
+				localStorage.setItem('lang', 'fr');
+			}
+		}
+		(function() {
+			var saved = localStorage.getItem('lang');
+			if (saved && saved !== document.documentElement.lang) {
+				document.documentElement.lang = saved;
+				document.getElementById('lang-toggle').textContent = saved === 'fr' ? 'EN' : 'FR';
+			}
+		})();
+	</script>
 </body>
 
 </html>
